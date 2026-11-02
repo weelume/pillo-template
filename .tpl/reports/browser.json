@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-02T17:48:20.939Z",
+  "checkedAt": "2026-11-02T17:55:15.203Z",
   "layout": [
     {
       "device": "desktop",
@@ -334,6 +334,12 @@
       "url": "http://localhost:43331/en/pricing?source=pillo#compare-plans"
     }
   ],
+  "errorLanguage": {
+    "path": "/en/unknown-pillo-route",
+    "title": "Oops! Page\nnot found.",
+    "lang": "en",
+    "back": "/en"
+  },
   "motion": [
     {
       "check": "typewriter-initial",
