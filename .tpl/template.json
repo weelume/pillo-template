@@ -1,0 +1,174 @@
+{
+  "$schema": "./schemas/template.schema.json",
+  "format": "git-template",
+  "formatVersion": "0.2.0",
+  "id": "pillo",
+  "version": "1.0.0",
+  "name": "Pillo · 睡眠与健康应用",
+  "gitUrl": "https://github.com/weelume/pillo-template",
+  "sceneId": "landing-page",
+  "listed": false,
+  "tags": [
+    "睡眠健康",
+    "橙色花卉",
+    "滚动手机",
+    "双语",
+    "深浅主题"
+  ],
+  "summary": "双语睡眠应用官网，提供滚动手机、睡前放松、横向评价、双周期定价和 FAQ。",
+  "accentColor": "#f58249",
+  "cover": "assets/desktop-home.webp",
+  "screenshots": [
+    {
+      "src": "assets/desktop-home.webp",
+      "alt": "Pillo desktop home",
+      "device": "desktop",
+      "width": 1430,
+      "height": 993,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/desktop-features.webp",
+      "alt": "Pillo desktop features",
+      "device": "desktop",
+      "width": 1430,
+      "height": 993,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/desktop-pricing.webp",
+      "alt": "Pillo desktop pricing",
+      "device": "desktop",
+      "width": 1430,
+      "height": 993,
+      "surfaceId": "site",
+      "pageSlug": "pricing"
+    },
+    {
+      "src": "assets/desktop-404.webp",
+      "alt": "Pillo desktop 404",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "surfaceId": "site",
+      "pageSlug": "404"
+    },
+    {
+      "src": "assets/tablet-home.webp",
+      "alt": "Pillo tablet home",
+      "device": "tablet",
+      "width": 824,
+      "height": 1166,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/tablet-features.webp",
+      "alt": "Pillo tablet features",
+      "device": "tablet",
+      "width": 824,
+      "height": 1166,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/tablet-pricing.webp",
+      "alt": "Pillo tablet pricing",
+      "device": "tablet",
+      "width": 824,
+      "height": 1166,
+      "surfaceId": "site",
+      "pageSlug": "pricing"
+    },
+    {
+      "src": "assets/tablet-404.webp",
+      "alt": "Pillo tablet 404",
+      "device": "tablet",
+      "width": 834,
+      "height": 1180,
+      "surfaceId": "site",
+      "pageSlug": "404"
+    },
+    {
+      "src": "assets/mobile-home.webp",
+      "alt": "Pillo mobile home",
+      "device": "mobile",
+      "width": 380,
+      "height": 822,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/mobile-features.webp",
+      "alt": "Pillo mobile features",
+      "device": "mobile",
+      "width": 380,
+      "height": 822,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/mobile-pricing.webp",
+      "alt": "Pillo mobile pricing",
+      "device": "mobile",
+      "width": 380,
+      "height": 822,
+      "surfaceId": "site",
+      "pageSlug": "pricing"
+    },
+    {
+      "src": "assets/mobile-404.webp",
+      "alt": "Pillo mobile 404",
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "surfaceId": "site",
+      "pageSlug": "404"
+    }
+  ],
+  "surfaces": [
+    {
+      "id": "site",
+      "name": "站点",
+      "platform": "pc",
+      "locales": [
+        "zh",
+        "en"
+      ],
+      "pages": [
+        {
+          "slug": "",
+          "title": "首页",
+          "localizedTitles": {
+            "en": "Home"
+          }
+        },
+        {
+          "slug": "pricing",
+          "title": "定价",
+          "localizedTitles": {
+            "en": "Pricing"
+          }
+        },
+        {
+          "slug": "404",
+          "title": "未找到页面",
+          "localizedTitles": {
+            "en": "Page not found"
+          }
+        }
+      ]
+    }
+  ],
+  "license": {
+    "type": "restricted",
+    "file": "docs/LICENSE.md",
+    "summary": "参考站素材和设计的商业授权未确认，字体与工具各依其许可。",
+    "redistributionAllowed": false
+  },
+  "localizedNames": {
+    "en": "Pillo · Sleep tracking & wind-down app"
+  }
+}

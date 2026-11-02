@@ -1,0 +1,112 @@
+{
+  "$schema": "./schemas/customization.schema.json",
+  "format": "git-template-customization",
+  "formatVersion": "0.2.0",
+  "entries": [
+    {
+      "id": "brand",
+      "title": "品牌与价格",
+      "description": "品牌与价格的实际修改入口",
+      "files": [
+        {
+          "path": "src/features/site-templates/catalog/pillo/config/brand.ts",
+          "kind": "file",
+          "purpose": "品牌与价格"
+        }
+      ],
+      "constraints": [
+        "中英文同时维护",
+        "保留可访问性，不增加依赖"
+      ],
+      "checks": [
+        "typecheck",
+        "lint",
+        "test"
+      ]
+    },
+    {
+      "id": "copy",
+      "title": "双语文案",
+      "description": "双语文案的实际修改入口",
+      "files": [
+        {
+          "path": "src/features/site-templates/catalog/pillo/content/copy.ts",
+          "kind": "file",
+          "purpose": "双语文案"
+        }
+      ],
+      "constraints": [
+        "中英文同时维护",
+        "保留可访问性，不增加依赖"
+      ],
+      "checks": [
+        "typecheck",
+        "lint",
+        "test"
+      ]
+    },
+    {
+      "id": "theme",
+      "title": "视觉与滚动条",
+      "description": "视觉与滚动条的实际修改入口",
+      "files": [
+        {
+          "path": "src/features/site-templates/catalog/pillo/theme.css",
+          "kind": "file",
+          "purpose": "视觉与滚动条"
+        }
+      ],
+      "constraints": [
+        "中英文同时维护",
+        "保留可访问性，不增加依赖"
+      ],
+      "checks": [
+        "typecheck",
+        "lint",
+        "test"
+      ]
+    },
+    {
+      "id": "motion",
+      "title": "共享组件和动效",
+      "description": "共享组件和动效的实际修改入口",
+      "files": [
+        {
+          "path": "src/features/site-templates/catalog/pillo/components",
+          "kind": "directory",
+          "purpose": "共享组件和动效"
+        }
+      ],
+      "constraints": [
+        "中英文同时维护",
+        "保留可访问性，不增加依赖"
+      ],
+      "checks": [
+        "typecheck",
+        "lint",
+        "test"
+      ]
+    },
+    {
+      "id": "pages",
+      "title": "页面和导航",
+      "description": "页面和导航的实际修改入口",
+      "files": [
+        {
+          "path": "src/features/site-templates/catalog/pillo/pages",
+          "kind": "directory",
+          "purpose": "页面和导航"
+        }
+      ],
+      "constraints": [
+        "中英文同时维护",
+        "保留可访问性，不增加依赖"
+      ],
+      "checks": [
+        "typecheck",
+        "lint",
+        "test"
+      ]
+    }
+  ]
+}
