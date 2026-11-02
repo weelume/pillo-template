@@ -1,0 +1,391 @@
+{
+  "checkedAt": "2026-11-02T17:04:53.441Z",
+  "layout": [
+    {
+      "device": "desktop",
+      "path": "/",
+      "broken": [],
+      "client": 1430,
+      "h1": 1,
+      "scroll": 1430,
+      "viewport": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "device": "desktop",
+      "path": "/en",
+      "broken": [],
+      "client": 1430,
+      "h1": 1,
+      "scroll": 1430,
+      "viewport": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "device": "desktop",
+      "path": "/pricing",
+      "broken": [],
+      "client": 1430,
+      "h1": 1,
+      "scroll": 1430,
+      "viewport": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "device": "desktop",
+      "path": "/en/pricing",
+      "broken": [],
+      "client": 1430,
+      "h1": 1,
+      "scroll": 1430,
+      "viewport": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "device": "desktop",
+      "path": "/404",
+      "broken": [],
+      "client": 1440,
+      "h1": 1,
+      "scroll": 1440,
+      "viewport": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "device": "desktop",
+      "path": "/en/404",
+      "broken": [],
+      "client": 1440,
+      "h1": 1,
+      "scroll": 1440,
+      "viewport": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "device": "tablet",
+      "path": "/",
+      "broken": [],
+      "client": 824,
+      "h1": 1,
+      "scroll": 824,
+      "viewport": [
+        834,
+        1180
+      ]
+    },
+    {
+      "device": "tablet",
+      "path": "/en",
+      "broken": [],
+      "client": 824,
+      "h1": 1,
+      "scroll": 824,
+      "viewport": [
+        834,
+        1180
+      ]
+    },
+    {
+      "device": "tablet",
+      "path": "/pricing",
+      "broken": [],
+      "client": 824,
+      "h1": 1,
+      "scroll": 824,
+      "viewport": [
+        834,
+        1180
+      ]
+    },
+    {
+      "device": "tablet",
+      "path": "/en/pricing",
+      "broken": [],
+      "client": 824,
+      "h1": 1,
+      "scroll": 824,
+      "viewport": [
+        834,
+        1180
+      ]
+    },
+    {
+      "device": "tablet",
+      "path": "/404",
+      "broken": [],
+      "client": 834,
+      "h1": 1,
+      "scroll": 834,
+      "viewport": [
+        834,
+        1180
+      ]
+    },
+    {
+      "device": "tablet",
+      "path": "/en/404",
+      "broken": [],
+      "client": 834,
+      "h1": 1,
+      "scroll": 834,
+      "viewport": [
+        834,
+        1180
+      ]
+    },
+    {
+      "device": "mobile",
+      "path": "/",
+      "broken": [],
+      "client": 380,
+      "h1": 1,
+      "scroll": 380,
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "device": "mobile",
+      "path": "/en",
+      "broken": [],
+      "client": 380,
+      "h1": 1,
+      "scroll": 380,
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "device": "mobile",
+      "path": "/pricing",
+      "broken": [],
+      "client": 380,
+      "h1": 1,
+      "scroll": 380,
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "device": "mobile",
+      "path": "/en/pricing",
+      "broken": [],
+      "client": 380,
+      "h1": 1,
+      "scroll": 380,
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "device": "mobile",
+      "path": "/404",
+      "broken": [],
+      "client": 390,
+      "h1": 1,
+      "scroll": 390,
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "device": "mobile",
+      "path": "/en/404",
+      "broken": [],
+      "client": 390,
+      "h1": 1,
+      "scroll": 390,
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "device": "narrow",
+      "path": "/",
+      "broken": [],
+      "client": 310,
+      "h1": 1,
+      "scroll": 310,
+      "viewport": [
+        320,
+        844
+      ]
+    },
+    {
+      "device": "narrow",
+      "path": "/en",
+      "broken": [],
+      "client": 310,
+      "h1": 1,
+      "scroll": 310,
+      "viewport": [
+        320,
+        844
+      ]
+    },
+    {
+      "device": "narrow",
+      "path": "/pricing",
+      "broken": [],
+      "client": 310,
+      "h1": 1,
+      "scroll": 310,
+      "viewport": [
+        320,
+        844
+      ]
+    },
+    {
+      "device": "narrow",
+      "path": "/en/pricing",
+      "broken": [],
+      "client": 310,
+      "h1": 1,
+      "scroll": 310,
+      "viewport": [
+        320,
+        844
+      ]
+    },
+    {
+      "device": "narrow",
+      "path": "/404",
+      "broken": [],
+      "client": 320,
+      "h1": 1,
+      "scroll": 320,
+      "viewport": [
+        320,
+        844
+      ]
+    },
+    {
+      "device": "narrow",
+      "path": "/en/404",
+      "broken": [],
+      "client": 320,
+      "h1": 1,
+      "scroll": 320,
+      "viewport": [
+        320,
+        844
+      ]
+    }
+  ],
+  "interactions": [
+    {
+      "check": "mobile-menu-open",
+      "dialog": true,
+      "focused": "首页",
+      "locked": "hidden"
+    },
+    {
+      "check": "mobile-menu-escape",
+      "expanded": "false",
+      "focus": "打开菜单",
+      "locked": ""
+    },
+    {
+      "check": "language-before",
+      "url": "http://localhost:43331/pricing?source=pillo#compare-plans"
+    },
+    {
+      "check": "language-preserves-location",
+      "url": "http://localhost:43331/en/pricing?source=pillo#compare-plans"
+    },
+    {
+      "check": "light-theme",
+      "theme": "light"
+    },
+    {
+      "check": "annual-price",
+      "value": "For better sleep\nMost popular\nEverything you need for\neffortless sleep, every night.\n$47.99\n/year\n\n$3.99 /mo\n\nChoose Plus\nChoose Plus\n✓\nNightly sleep tracking\n✓\nFull wind-down library\n✓\nCustom alarm window\n✓\nSleep score & stages\n✓\nWeekly sleep insights\n✓\nData export"
+    },
+    {
+      "check": "faq-open",
+      "expanded": "true"
+    },
+    {
+      "check": "faq-single-item",
+      "first": "false",
+      "second": "true"
+    },
+    {
+      "check": "download-demo",
+      "status": "This is a demonstration button. No app was downloaded or subscription created.\n×",
+      "url": "http://localhost:43331/en/pricing?source=pillo#compare-plans"
+    }
+  ],
+  "motion": [
+    {
+      "check": "typewriter-initial",
+      "text": "轻而易举"
+    },
+    {
+      "check": "typewriter-running",
+      "text": "自"
+    },
+    {
+      "check": "settled-phone-1",
+      "screen": "alarm",
+      "transform": "matrix(0.910833, 0, 0, 0.910833, 230.4, 10.4167)",
+      "y": 920
+    },
+    {
+      "check": "settled-phone-2",
+      "screen": "tracking",
+      "transform": "matrix(0.9, 0, 0, 0.9, 230.4, 0)",
+      "y": 2520
+    },
+    {
+      "check": "settled-phone-3",
+      "screen": "routine",
+      "transform": "matrix(0.9, 0, 0, 0.9, 230.4, 0)",
+      "y": 4120
+    },
+    {
+      "check": "settled-story-start",
+      "transform": "none",
+      "y": 7296.66650390625
+    },
+    {
+      "check": "settled-story-running",
+      "transform": "matrix(1, 0, 0, 1, -1035.8, 0)",
+      "y": 8101.33349609375
+    },
+    {
+      "check": "marquee-running-initial",
+      "running": "true",
+      "state": "running",
+      "transform": "matrix(1, 0, 0, 1, -505.593, 0)"
+    },
+    {
+      "check": "marquee-running-later",
+      "state": "running",
+      "transform": "matrix(1, 0, 0, 1, -544.996, 0)"
+    },
+    {
+      "check": "marquee-offscreen-paused",
+      "running": "false",
+      "state": "paused"
+    }
+  ]
+}

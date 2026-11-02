@@ -1,0 +1,86 @@
+{
+  "$schema": "../schemas/verification.schema.json",
+  "format": "git-template-verification",
+  "formatVersion": "0.2.0",
+  "status": "passed",
+  "checkedAt": "2026-11-02T17:04:53.441Z",
+  "sourceCommit": "dc7db1e4c38da1b8f4b96b9455f98b3071d29440",
+  "sourceDigest": "3e001a44812b06299928f76b9f1ab2af951ae3c695e30510c2c8aff31f74e3b5",
+  "environment": {
+    "platform": "linux (local WSL)",
+    "arch": "x64",
+    "node": "24.16.0",
+    "packageManager": "pnpm@12.10.1",
+    "cleanDirectory": true,
+    "localGitClone": true
+  },
+  "checks": [
+    {
+      "id": "typecheck",
+      "cwd": ".",
+      "argv": [
+        "pnpm",
+        "run",
+        "typecheck"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "startedAt": "2026-11-02T16:57:11.578Z",
+      "finishedAt": "2026-11-02T16:57:14.825Z"
+    },
+    {
+      "id": "lint",
+      "cwd": ".",
+      "argv": [
+        "pnpm",
+        "run",
+        "lint"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "startedAt": "2026-11-02T16:57:14.831Z",
+      "finishedAt": "2026-11-02T16:57:18.441Z"
+    },
+    {
+      "id": "test",
+      "cwd": ".",
+      "argv": [
+        "pnpm",
+        "run",
+        "test"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "startedAt": "2026-11-02T16:57:18.448Z",
+      "finishedAt": "2026-11-02T16:57:19.121Z"
+    },
+    {
+      "id": "build",
+      "cwd": ".",
+      "argv": [
+        "pnpm",
+        "run",
+        "build"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "startedAt": "2026-11-02T16:57:19.128Z",
+      "finishedAt": "2026-11-02T16:57:42.750Z"
+    }
+  ],
+  "services": [
+    {
+      "id": "web",
+      "status": "passed",
+      "stopped": true,
+      "checkedAt": "2026-11-02T17:04:53.441Z"
+    }
+  ],
+  "limitations": [
+    "界面为演示，下载按钮不创建真实下载、账户、订阅或健康数据采集。",
+    "参考站素材和设计的商业使用与再分发授权尚未确认。",
+    "已验证代表动效状态与各端布局，未逐帧对照全部几何、缓动及全部设备/语言/控件组合。",
+    "未实际切换系统减少动态效果设置。",
+    "手机示意界面为可翻译文字重绘，存在与原站英文截图的排版细节差异。"
+  ]
+}

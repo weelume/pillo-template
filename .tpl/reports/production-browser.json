@@ -1,0 +1,51 @@
+[
+  {
+    "path": "/",
+    "h1": "让好眠变得\n轻而易举",
+    "client": 1430,
+    "lang": "zh-CN",
+    "scroll": 1430
+  },
+  {
+    "path": "/en",
+    "h1": "Sleep like it’s\neasy",
+    "client": 1430,
+    "lang": "en",
+    "scroll": 1430
+  },
+  {
+    "path": "/pricing",
+    "h1": "简单定价\n没有隐藏费用",
+    "client": 1430,
+    "lang": "zh-CN",
+    "scroll": 1430
+  },
+  {
+    "path": "/en/pricing",
+    "h1": "Simple pricing.\nNo hidden fees.",
+    "client": 1430,
+    "lang": "en",
+    "scroll": 1430
+  },
+  {
+    "path": "/404",
+    "h1": "哎呀\n这一页睡着了",
+    "client": 1440,
+    "lang": "zh-CN",
+    "scroll": 1440
+  },
+  {
+    "path": "/en/404",
+    "h1": "Oops! Page\nnot found.",
+    "client": 1440,
+    "lang": "en",
+    "scroll": 1440
+  },
+  {
+    "path": "/unknown-pillo-route",
+    "h1": "哎呀\n这一页睡着了",
+    "client": 1440,
+    "lang": "zh-CN",
+    "scroll": 1440
+  }
+]
