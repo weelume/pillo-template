@@ -1,0 +1,78 @@
+/* 设备自身为容器，内部所有尺寸跟随设备宽度缩放；桌面、平板和滚动缩放共用一套坐标。 */
+.pl-phone{position:relative;width:100%;aspect-ratio:1756/3664;padding:3.6% 4%;font-family:'Pillo Poppins','Pillo MiSans',sans-serif;color:#fff;container-type:inline-size}
+.pl-phone-screen{position:relative;height:100%;width:100%;overflow:hidden;border-radius:12% / 5.7%;background:#b75b21}
+.pl-phone-background{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;max-width:none!important}
+.pl-phone[data-screen=welcome] .pl-phone-screen{background:#00000008;backdrop-filter:blur(8px)}
+.pl-phone[data-screen=alarm] .pl-phone-background{object-fit:fill}
+.pl-phone[data-screen=tracking] .pl-phone-background,.pl-phone[data-screen=routine] .pl-phone-background{filter:blur(3px) brightness(.82);transform:scale(1.04);object-position:50% 25%}
+.pl-phone-screen:after{content:'';position:absolute;inset:0;pointer-events:none;background:linear-gradient(transparent 30%,#24130755 60%,#100906cc 100%);z-index:1}
+.pl-phone-frame{position:absolute;inset:0;width:100%;height:100%;object-fit:fill;z-index:5;pointer-events:none}
+.pl-phone-ui{position:absolute;inset:0;z-index:2;font-size:3.8cqw;line-height:1.45;font-weight:400}
+.pl-phone-ui strong{font-weight:600}
+.pl-phone-ui small{font-size:3.1cqw;color:#ffffffa3}
+.pl-phone-ui svg{display:block;width:100%;height:100%}
+.pl-phone-welcome-content{position:absolute;top:33.5%;left:4%;right:4%}
+.pl-phone-name{font-size:28cqw;line-height:1.2;letter-spacing:-.06em;font-weight:400;text-align:center;white-space:nowrap}
+.pillo[lang=zh-CN] .pl-phone-name{font-size:20cqw}
+.pl-phone-name[data-long=true]{font-size:18cqw}
+.pl-phone-chips{display:flex;align-items:center;gap:2cqw;margin:2.5cqw 0 4cqw}
+.pl-phone-chip{display:flex;align-items:center;gap:1.5cqw;border:1px solid #ffffff40;border-radius:50px;padding:1.4cqw 2.3cqw;backdrop-filter:blur(10px);font-size:3.8cqw;line-height:1.2;white-space:nowrap}
+.pl-phone-chip b{font-size:5cqw;font-weight:400}
+.pl-phone-chip-icon{width:9cqw;height:9cqw;padding:1.7cqw}
+.pl-phone-glass{border:1px solid #ffffff38;border-radius:4.5cqw;background:linear-gradient(120deg,#ffffff20,#ffffff08);backdrop-filter:blur(12px);padding:3.2cqw;margin-bottom:2.2cqw;line-height:1.5;box-shadow:inset 0 1px 0 #ffffff0c}
+.pl-phone-welcome-content .pl-phone-glass{font-size:3.6cqw;padding:4cqw;line-height:1.6}
+.pl-phone-nav{position:absolute;top:8%;left:6%;right:6%;line-height:1.4}
+.pl-phone-nav>strong{font-size:5.5cqw;line-height:1.3}
+.pl-phone-nav>small{display:block;margin-top:.8cqw}
+.pl-phone-nav-centered{display:flex;justify-content:space-between;align-items:center;left:4%;right:4%;top:6.8%}
+.pl-phone-nav-centered>strong{font-size:3.8cqw}
+.pl-phone-back,.pl-phone-more{width:8.5cqw;height:8.5cqw;display:flex;align-items:center;justify-content:center;border:1px solid #ffffff50;border-radius:50%;font-size:5cqw;line-height:1}
+.pl-phone-lower{position:absolute;left:4%;right:4%;bottom:2.6%}
+.pl-phone-row{display:flex;align-items:center;justify-content:space-between;gap:1cqw;line-height:1.5}
+.pl-phone-row>span{display:flex;align-items:center;gap:1.6cqw}
+.pl-phone-row strong{font-size:3.6cqw}
+.pl-phone-helper{font-size:3.1cqw;line-height:1.4;color:#ffffff80;margin-top:2.5cqw!important}
+.pl-alarm-time{text-align:center;padding:4.2cqw 2.5cqw}
+.pl-alarm-time>strong{display:block;font-size:11cqw;line-height:1.5;letter-spacing:-.04em}
+.pl-alarm-time>strong small{font-size:5cqw;font-weight:400}
+.pl-alarm-time>small:first-child{font-size:2.8cqw;text-transform:uppercase}
+.pl-fake-slider{height:1.1cqw;background:#ffffff4a;border-radius:5px;margin:3.2cqw 0 1cqw;position:relative}
+.pl-fake-slider:before{content:'';position:absolute;inset:0 28% 0 0;background:#ffa36b;border-radius:5px}
+.pl-fake-slider i{position:absolute;width:4cqw;height:4cqw;border-radius:50%;background:#fff;top:-1.4cqw;left:68%}
+.pl-fake-switch{width:11.5cqw;height:6.2cqw;border-radius:20px;background:#ff9b65;padding:.6cqw;flex-shrink:0}
+.pl-fake-switch:after{content:'';display:block;width:5cqw;height:5cqw;background:#fff;border-radius:50%;margin-left:auto}
+.pl-phone-settings{padding:0 3.2cqw}
+.pl-phone-settings .pl-phone-row{min-height:11.6cqw}
+.pl-phone-settings .pl-phone-row+.pl-phone-row{border-top:1px solid #ffffff24}
+.pl-phone-app-icon{display:flex;align-items:center;justify-content:center;border-radius:1.5cqw;background:linear-gradient(130deg,#ffb866,#f37838);width:4.6cqw;height:4.6cqw;padding:.7cqw;flex-shrink:0;color:white;box-shadow:0 0 2.5cqw #ff9a4850}
+.pl-phone-cta{background:#fff;color:#1d1713;text-align:center;border-radius:50px;padding:4cqw;font-weight:600;font-size:3.6cqw;margin-top:1.2cqw}
+.pl-score{display:flex;align-items:center;gap:4cqw;padding:4cqw}
+.pl-score-ring{width:24cqw;height:24cqw;flex-shrink:0;border-radius:50%;border:2.2cqw solid #ffa061;background:linear-gradient(145deg,#ffc07828,#fa7c3638);box-shadow:0 0 0 1cqw #ffffff25;display:flex;align-items:center;justify-content:center;flex-direction:column}
+.pl-score-ring strong{font-size:8cqw;line-height:1.2}
+.pl-score-ring small{font-size:2cqw;color:#fff}
+.pl-score-legend{display:flex;flex-direction:column;font-size:2.8cqw;line-height:1.55;gap:.5cqw}
+.pl-score-legend>small{text-transform:uppercase;font-size:2.6cqw;color:#fff}
+.pl-score-legend>span{display:flex;align-items:center;gap:1.4cqw}
+.pl-score-legend i{height:1.8cqw;width:1.8cqw;background:#ffe1c0;border-radius:50%}
+.pl-phone-stat-grid{display:grid;grid-template-columns:1fr 1fr;gap:2cqw}
+.pl-phone-stat-grid .pl-phone-glass{padding:2.8cqw}
+.pl-phone-stat-grid strong{display:block;font-size:4.5cqw;line-height:1.5;white-space:nowrap}
+.pl-phone-stat-grid span{font-size:2.2cqw;white-space:nowrap;display:block;color:#fff9}
+.pl-chart{height:18cqw;display:flex;gap:2cqw;align-items:flex-end;margin:1cqw 0 0}
+.pl-chart span{flex:1;border-radius:1cqw;background:#ffffff40}
+.pl-chart span[data-active=true]{background:linear-gradient(#ffaf7d,#f78242)}
+.pl-phone-bottom-nav{display:flex;align-items:center;justify-content:space-around;border:1px solid #ffffff40;border-radius:9cqw;padding:2cqw 0;background:linear-gradient(#ffffff0c,#0005);backdrop-filter:blur(10px)}
+.pl-phone-bottom-nav>span{display:flex;align-items:center;gap:.7cqw;flex-direction:column;width:25%;color:#fff7}
+.pl-phone-bottom-nav>span:first-child{color:#fff}
+.pl-phone-bottom-nav svg{width:3.2cqw;height:3.2cqw}
+.pl-phone-bottom-nav small{font-size:2.2cqw;color:inherit}
+.pl-routine-progress{padding:2.7cqw 3cqw}
+.pl-routine-progress>div:last-child{height:1.2cqw;margin-top:2cqw;border-radius:5px;background:#ffffff32;overflow:hidden}
+.pl-routine-progress>div:last-child>i{display:block;width:64%;height:100%;background:#ffd7ac}
+.pl-routine-item{display:flex;align-items:center;gap:2.2cqw;padding:3cqw}
+.pl-routine-item>.pl-phone-app-icon{border-radius:50%;width:10cqw;height:10cqw;padding:2.3cqw;background:linear-gradient(135deg,#ffbc80,#eb793e);box-shadow:0 0 0 1cqw #ffffff10}
+.pl-routine-item>div{flex:1;min-width:0}
+.pl-routine-item strong{display:block;font-size:3.3cqw;line-height:1.5}
+.pl-routine-item small{display:block;font-size:2.7cqw;white-space:nowrap}
+.pl-routine-item>span{padding:.5cqw 1.6cqw;border:1px solid #ffffff40;border-radius:5cqw;font-size:2.3cqw;line-height:1.2}
+.pl-routine-item>span[data-current=true]{background:#f77d3d;border-color:#ffa371}

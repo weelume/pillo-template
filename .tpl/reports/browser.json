@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-02T17:55:15.203Z",
+  "checkedAt": "2026-11-03T03:01:27.256Z",
   "layout": [
     {
       "device": "desktop",
@@ -7,11 +7,7 @@
       "broken": [],
       "client": 1430,
       "h1": 1,
-      "scroll": 1430,
-      "viewport": [
-        1440,
-        1000
-      ]
+      "scroll": 1430
     },
     {
       "device": "desktop",
@@ -19,11 +15,7 @@
       "broken": [],
       "client": 1430,
       "h1": 1,
-      "scroll": 1430,
-      "viewport": [
-        1440,
-        1000
-      ]
+      "scroll": 1430
     },
     {
       "device": "desktop",
@@ -31,11 +23,7 @@
       "broken": [],
       "client": 1430,
       "h1": 1,
-      "scroll": 1430,
-      "viewport": [
-        1440,
-        1000
-      ]
+      "scroll": 1430
     },
     {
       "device": "desktop",
@@ -43,11 +31,7 @@
       "broken": [],
       "client": 1430,
       "h1": 1,
-      "scroll": 1430,
-      "viewport": [
-        1440,
-        1000
-      ]
+      "scroll": 1430
     },
     {
       "device": "desktop",
@@ -55,11 +39,7 @@
       "broken": [],
       "client": 1440,
       "h1": 1,
-      "scroll": 1440,
-      "viewport": [
-        1440,
-        1000
-      ]
+      "scroll": 1440
     },
     {
       "device": "desktop",
@@ -67,11 +47,7 @@
       "broken": [],
       "client": 1440,
       "h1": 1,
-      "scroll": 1440,
-      "viewport": [
-        1440,
-        1000
-      ]
+      "scroll": 1440
     },
     {
       "device": "tablet",
@@ -79,11 +55,7 @@
       "broken": [],
       "client": 824,
       "h1": 1,
-      "scroll": 824,
-      "viewport": [
-        834,
-        1180
-      ]
+      "scroll": 824
     },
     {
       "device": "tablet",
@@ -91,11 +63,7 @@
       "broken": [],
       "client": 824,
       "h1": 1,
-      "scroll": 824,
-      "viewport": [
-        834,
-        1180
-      ]
+      "scroll": 824
     },
     {
       "device": "tablet",
@@ -103,11 +71,7 @@
       "broken": [],
       "client": 824,
       "h1": 1,
-      "scroll": 824,
-      "viewport": [
-        834,
-        1180
-      ]
+      "scroll": 824
     },
     {
       "device": "tablet",
@@ -115,11 +79,7 @@
       "broken": [],
       "client": 824,
       "h1": 1,
-      "scroll": 824,
-      "viewport": [
-        834,
-        1180
-      ]
+      "scroll": 824
     },
     {
       "device": "tablet",
@@ -127,11 +87,7 @@
       "broken": [],
       "client": 834,
       "h1": 1,
-      "scroll": 834,
-      "viewport": [
-        834,
-        1180
-      ]
+      "scroll": 834
     },
     {
       "device": "tablet",
@@ -139,11 +95,7 @@
       "broken": [],
       "client": 834,
       "h1": 1,
-      "scroll": 834,
-      "viewport": [
-        834,
-        1180
-      ]
+      "scroll": 834
     },
     {
       "device": "mobile",
@@ -151,11 +103,7 @@
       "broken": [],
       "client": 380,
       "h1": 1,
-      "scroll": 380,
-      "viewport": [
-        390,
-        844
-      ]
+      "scroll": 380
     },
     {
       "device": "mobile",
@@ -163,11 +111,7 @@
       "broken": [],
       "client": 380,
       "h1": 1,
-      "scroll": 380,
-      "viewport": [
-        390,
-        844
-      ]
+      "scroll": 380
     },
     {
       "device": "mobile",
@@ -175,11 +119,7 @@
       "broken": [],
       "client": 380,
       "h1": 1,
-      "scroll": 380,
-      "viewport": [
-        390,
-        844
-      ]
+      "scroll": 380
     },
     {
       "device": "mobile",
@@ -187,11 +127,7 @@
       "broken": [],
       "client": 380,
       "h1": 1,
-      "scroll": 380,
-      "viewport": [
-        390,
-        844
-      ]
+      "scroll": 380
     },
     {
       "device": "mobile",
@@ -199,11 +135,7 @@
       "broken": [],
       "client": 390,
       "h1": 1,
-      "scroll": 390,
-      "viewport": [
-        390,
-        844
-      ]
+      "scroll": 390
     },
     {
       "device": "mobile",
@@ -211,11 +143,7 @@
       "broken": [],
       "client": 390,
       "h1": 1,
-      "scroll": 390,
-      "viewport": [
-        390,
-        844
-      ]
+      "scroll": 390
     },
     {
       "device": "narrow",
@@ -223,11 +151,7 @@
       "broken": [],
       "client": 310,
       "h1": 1,
-      "scroll": 310,
-      "viewport": [
-        320,
-        844
-      ]
+      "scroll": 310
     },
     {
       "device": "narrow",
@@ -235,11 +159,7 @@
       "broken": [],
       "client": 310,
       "h1": 1,
-      "scroll": 310,
-      "viewport": [
-        320,
-        844
-      ]
+      "scroll": 310
     },
     {
       "device": "narrow",
@@ -247,11 +167,7 @@
       "broken": [],
       "client": 310,
       "h1": 1,
-      "scroll": 310,
-      "viewport": [
-        320,
-        844
-      ]
+      "scroll": 310
     },
     {
       "device": "narrow",
@@ -259,11 +175,7 @@
       "broken": [],
       "client": 310,
       "h1": 1,
-      "scroll": 310,
-      "viewport": [
-        320,
-        844
-      ]
+      "scroll": 310
     },
     {
       "device": "narrow",
@@ -271,11 +183,7 @@
       "broken": [],
       "client": 320,
       "h1": 1,
-      "scroll": 320,
-      "viewport": [
-        320,
-        844
-      ]
+      "scroll": 320
     },
     {
       "device": "narrow",
@@ -283,115 +191,150 @@
       "broken": [],
       "client": 320,
       "h1": 1,
-      "scroll": 320,
-      "viewport": [
-        320,
-        844
-      ]
+      "scroll": 320
     }
   ],
   "interactions": [
     {
-      "check": "mobile-menu-open",
-      "dialog": true,
-      "focused": "首页",
-      "locked": "hidden"
+      "check": "menu-lock",
+      "value": "hidden"
     },
     {
-      "check": "mobile-menu-escape",
-      "expanded": "false",
-      "focus": "打开菜单",
-      "locked": ""
+      "check": "yearly",
+      "text": "简单定价\n没有隐藏费用\n\n免费开始，需要更深入了解睡眠时，再选择升级。\n\n月付\n年付省 20%\n免费版\n从每一个夜晚开始\n轻松养成好眠习惯\n$0\n/月\n免费开始\n免费开始\n✓\n每夜睡眠追踪\n✓\n1 套睡前放松流程\n✓\n基础睡眠评分\n✓\n无需穿戴设备\n✓\n邮件支持\n更好的睡眠\n最受欢迎\n让好眠自然发生\n所需功能一应俱全\n$47.99\n/年\n\n$3.99 /月\n\n选择 Plus\n选择 Plus\n✓\n每夜睡眠追踪\n✓\n完整睡前放松库\n✓\n自定义唤醒时段\n✓\n睡眠评分与阶段\n✓\n每周睡眠洞察\n✓\n数据导出\n比较清楚\n然后安心入睡\n功能\tPlus\t免费版\n每夜睡眠追踪\t✓\t✓\n睡眠评分与阶段\t✓\t✓\n睡前放松流程\t✓\t1 套流程\n每周睡眠洞察\t✓\t—\n自定义唤醒时段\t✓\t—\n个性化建议\t✓\t—\n家庭档案\t✓\n最多 4 人\n\t—\n数据导出\t✓\t—\n\t\n选择 Plus\n选择 Plus\n\t\n免费开始\n免费开始\n\nFAQ\n\n太困了\n连问题也不想想\n\n第一次使用之前，你可能想知道这些。提前了解，今晚就放心休息。\n\n可以随时取消吗？\n+\n\n可以。你可以在订阅管理中取消续费，已购买权益持续到当前计费周期结束。",
+      "bodyOverflow": ""
     },
     {
-      "check": "language-before",
-      "url": "http://localhost:43331/pricing?source=pillo#compare-plans"
-    },
-    {
-      "check": "language-preserves-location",
-      "url": "http://localhost:43331/en/pricing?source=pillo#compare-plans"
-    },
-    {
-      "check": "light-theme",
-      "theme": "light"
-    },
-    {
-      "check": "annual-price",
-      "value": "For better sleep\nMost popular\nEverything you need for\neffortless sleep, every night.\n$47.99\n/year\n\n$3.99 /mo\n\nChoose Plus\nChoose Plus\n✓\nNightly sleep tracking\n✓\nFull wind-down library\n✓\nCustom alarm window\n✓\nSleep score & stages\n✓\nWeekly sleep insights\n✓\nData export"
-    },
-    {
-      "check": "faq-open",
+      "check": "faq",
       "expanded": "true"
     },
     {
-      "check": "faq-single-item",
-      "first": "false",
-      "second": "true"
-    },
-    {
-      "check": "download-demo",
-      "status": "This is a demonstration button. No app was downloaded or subscription created.\n×",
-      "url": "http://localhost:43331/en/pricing?source=pillo#compare-plans"
+      "check": "download",
+      "passed": true
     }
   ],
-  "errorLanguage": {
-    "path": "/en/unknown-pillo-route",
-    "title": "Oops! Page\nnot found.",
-    "lang": "en",
-    "back": "/en"
-  },
   "motion": [
     {
-      "check": "typewriter-initial",
-      "text": "轻而易举"
+      "cards": [
+        {
+          "w": 572,
+          "x": 135,
+          "y": 259.85418701171875
+        },
+        {
+          "w": 572,
+          "x": 723,
+          "y": 259.85418701171875
+        }
+      ],
+      "name": "pricing-spread",
+      "scroll": 12233.3330078125,
+      "sectionTop": -1000.1458740234376,
+      "visible": "true"
     },
     {
-      "check": "typewriter-running",
-      "text": "自"
+      "name": "testimonials-interleaved",
+      "rows": [
+        {
+          "direction": "row",
+          "photoWidth": 384
+        },
+        {
+          "direction": "row-reverse",
+          "photoWidth": 384
+        },
+        {
+          "direction": "row",
+          "photoWidth": 384
+        }
+      ],
+      "track": "transform: translateX(-173.115vw);"
     },
     {
-      "check": "settled-phone-1",
-      "screen": "alarm",
-      "transform": "matrix(0.910833, 0, 0, 0.910833, 230.4, 10.4167)",
-      "y": 920
+      "name": "pricing-initial",
+      "cardsVisible": "false",
+      "heading": "transform: translateY(49.9533vh);",
+      "sectionTop": -0.2708333432674408
     },
     {
-      "check": "settled-phone-2",
+      "name": "pricing-overlap",
+      "cards": [
+        {
+          "w": 572,
+          "x": 412.7760620117187,
+          "y": 260
+        },
+        {
+          "w": 572,
+          "x": 445.2239685058594,
+          "y": 260
+        }
+      ],
+      "sectionTop": -600.2708740234375,
+      "visible": "true"
+    },
+    {
+      "name": "pricing-spread-production",
+      "cards": [
+        {
+          "w": 572,
+          "x": 135,
+          "y": 259.72918701171875
+        },
+        {
+          "w": 572,
+          "x": 723,
+          "y": 259.72918701171875
+        }
+      ],
+      "sectionTop": -1000.2708740234376
+    },
+    {
+      "name": "pricing-reverse",
+      "cards": [
+        {
+          "w": 572,
+          "x": 412.7760620117187
+        },
+        {
+          "w": 572,
+          "x": 445.2239685058594
+        }
+      ],
+      "sectionTop": -600.2708740234375
+    },
+    {
+      "name": "phone-tracking",
       "screen": "tracking",
-      "transform": "matrix(0.9, 0, 0, 0.9, 230.4, 0)",
-      "y": 2520
+      "text": "睡眠追踪\n昨晚 · 8 月 12 日\n88\n良好\n睡眠评分\n清醒\n快速眼动\n浅睡\n深睡\n总睡眠\n7 小时 53 分\n● ━━━━━━ ○\n卧床时间\n9 小时 16 分\n● ━━━━━━ ○\n本周\n首页\n追踪\n放松\n我的"
     },
     {
-      "check": "settled-phone-3",
+      "name": "phone-routine",
       "screen": "routine",
-      "transform": "matrix(0.9, 0, 0, 0.9, 230.4, 0)",
-      "y": 4120
+      "text": "睡前放松\n今晚的放松流程 · 3 步\n第 2 步，共 3 步\n剩余 12 分钟\n海浪声\n自然声音 · 10 分钟\n完成\n呼吸练习\n4-7-8 呼吸法 · 5 分钟\n进行中\n睡前故事\n轻柔人声 · 12 分钟\n下一步\n继续放松"
+    }
+  ],
+  "screenshots": [
+    {
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "pages": 4,
+      "completed": true
     },
     {
-      "check": "settled-story-start",
-      "transform": "none",
-      "y": 7296.66650390625
+      "device": "tablet",
+      "width": 834,
+      "height": 1180,
+      "pages": 4,
+      "completed": true
     },
     {
-      "check": "settled-story-running",
-      "transform": "matrix(1, 0, 0, 1, -1035.8, 0)",
-      "y": 8101.33349609375
-    },
-    {
-      "check": "marquee-running-initial",
-      "running": "true",
-      "state": "running",
-      "transform": "matrix(1, 0, 0, 1, -505.593, 0)"
-    },
-    {
-      "check": "marquee-running-later",
-      "state": "running",
-      "transform": "matrix(1, 0, 0, 1, -544.996, 0)"
-    },
-    {
-      "check": "marquee-offscreen-paused",
-      "running": "false",
-      "state": "paused"
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "pages": 4,
+      "completed": true
     }
   ]
 }

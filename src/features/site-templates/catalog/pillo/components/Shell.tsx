@@ -35,7 +35,7 @@ export function Trust({locale='zh'}:Pick<SiteTemplatePageProps,'locale'>){const 
 export function Shell({children,basePath,locale='zh',error=false}:SiteTemplatePageProps&{children:ReactNode;error?:boolean}){
  const c=copy[locale],host=usePilloHost(),pathname=usePathname(),router=useRouter(),reduced=useReducedMotion()
  const theme=useSyncExternalStore(subscribe,snapshot,serverSnapshot)
- const [menu,setMenu]=useState(false),[toast,setToast]=useState(false)
+ const [menu,setMenu]=useState(false),[toast,setToast]=useState(false),[scrolled,setScrolled]=useState(false)
  const toggle=useRef<HTMLButtonElement>(null),menuRef=useRef<HTMLDivElement>(null)
  const name=host.brandName?.[locale]??brand.name[locale]
  const logo=theme==='dark'?host.lightLogo:host.logo
@@ -44,6 +44,11 @@ export function Shell({children,basePath,locale='zh',error=false}:SiteTemplatePa
  const page=pathname.replace(basePath,'').replace(/^\/en(?=\/|$)/,'').replace(/^\//,'')
  const languageHref=route(basePath,targetLocale,page)
  function changeLanguage(e:MouseEvent<HTMLAnchorElement>){e.preventDefault();router.push(languageHref+window.location.search+window.location.hash)}
+ useEffect(()=>{
+  const update=()=>setScrolled(window.scrollY>40)
+  update();window.addEventListener('scroll',update,{passive:true})
+  return()=>window.removeEventListener('scroll',update)
+ },[])
  useEffect(()=>{
   const html=document.documentElement,previous=html.getAttribute('data-pillo'),previousLang=html.lang
   html.setAttribute('data-pillo',theme);html.lang=locale==='zh'?'zh-CN':'en'
@@ -71,7 +76,7 @@ export function Shell({children,basePath,locale='zh',error=false}:SiteTemplatePa
  const showDemo=()=>{setToast(true);if(process.env.NODE_ENV==='development')console.debug('[pillo] demo download clicked',{locale})}
  return <DemoContext.Provider value={showDemo}><div className="pillo" data-theme={theme} lang={locale==='zh'?'zh-CN':'en'}>
   <a className="pl-skip" href="#pl-main">{locale==='zh'?'跳到主要内容':'Skip to content'}</a>
-  <header className="pl-header"><div className="pl-container pl-header-inner">
+  <header className="pl-header" data-scrolled={scrolled}><div className="pl-container pl-header-inner">
    <Link className="pl-brand" href={route(basePath,locale)}>{logo?<img src={logo} alt=""/>:<span className="pl-brand-icon" aria-hidden="true"/>}<span>{name}</span></Link>
    <nav className="pl-desktop-nav" aria-label={locale==='zh'?'主导航':'Main navigation'}>{nav.map(n=><Link key={n.label} href={n.href}>{n.label}</Link>)}</nav>
    <div className="pl-tools"><Link className="pl-language" href={languageHref} onClick={changeLanguage} aria-label={c.language}>{locale==='zh'?'EN':'中文'}</Link><button className="pl-theme-toggle" type="button" role="switch" aria-checked={theme==='dark'} aria-label={theme==='dark'?c.light:c.dark} onClick={()=>{currentTheme=theme==='dark'?'light':'dark';themeListeners.forEach(l=>l())}}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.3" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></svg></button><button ref={toggle} className="pl-menu-toggle" type="button" onClick={()=>setMenu(!menu)} aria-expanded={menu} aria-controls="pl-menu" aria-label={menu?c.close:c.menu}><span/><span/></button></div>
